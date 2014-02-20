@@ -1,17 +1,17 @@
-shields-sizer
+reposs - repo size shields
 =============
 Clean and simple repository size badge, [courtesy of shields.io](https://github.com/badges/shields), that displays the size of your repository in KB, MB or TB.
 
 ##Use
-In your README.md, just add an image with the base URL (`https://shields-sizer.herokuapp.com/`) with the path to your **public** repository, for example [CocoaPods/Specs](https://github.com/CocoaPods/Specs):
+In your README.md, just add an image with the base URL (`https://reposs.herokuapp.com/`) with the path to your **public** repository, for example [CocoaPods/Specs](https://github.com/CocoaPods/Specs):
 
 ```
-![](https://shields-sizer.herokuapp.com/?path=CocoaPods/Specs)
+![](https://reposs.herokuapp.com/?path=CocoaPods/Specs)
 ```
 
 You will then get a nice and pretty SVG with the size of the repository:
 
-![](http://shields-sizer.herokuapp.com/?path=CocoaPods/Specs)
+![](https://reposs.herokuapp.com/?path=CocoaPods/Specs)
 
 That's it!
 
@@ -21,17 +21,17 @@ If you want to change the color of your badge, just append `&color=COLOR_NAME` t
 
 Available colors are (repo is rexfinn/shields-sizer):
 
-| Color         | Badge                                                                                  |
-|:-------------:|:--------------------------------------------------------------------------------------:|
-| brightgreen   | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=brightgreen) |
-| green         | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=green)       |
-| yellowgreen   | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=yellowgreen) |
-| yellow        | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=yellow)      |
-| orange        | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=orange)      |
-| red           | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=red)         |
-| lightgray     | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=lightgray)   |
-| blue          | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=blue)        |
-| ff69b4        | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=ff69b4)      |
+| Color         | Badge                                                                           |
+|:-------------:|:-------------------------------------------------------------------------------:|
+| brightgreen   | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=brightgreen) |
+| green         | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=green)       |
+| yellowgreen   | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=yellowgreen) |
+| yellow        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=yellow)      |
+| orange        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=orange)      |
+| red           | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=red)         |
+| lightgray     | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=lightgray)   |
+| blue          | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=blue)        |
+| ff69b4        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=ff69b4)      |
 
 ##To Do
 - ~~Add MB/GB options~~ &#x2713;
@@ -39,4 +39,4 @@ Available colors are (repo is rexfinn/shields-sizer):
 
 ------
 
-**This repository was created by Rex Finn - but is completely built off of [shields.io](https://github.com/badges/shields) - go check them out!  Having a problem?  [Open an issue.](https://github.com/rexfinn/shields-sizer/issues)**
+**This repository was created by Rex Finn - but is completely built off of [shields.io](https://github.com/badges/shields) - go check them out!  Having a problem?  [Open an issue.](https://github.com/rexfinn/reposs/issues)**

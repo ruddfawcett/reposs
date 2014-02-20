@@ -8,7 +8,7 @@
 			CURLOPT_URL => "https://api.github.com/repos/".$_GET['path'],
 			CURLOPT_RETURNTRANSFER => 1,
 			CURLOPT_TIMEOUT => '3',
-			CURLOPT_HTTPHEADER => array("User-Agent: sizer [shields.io service]")
+			CURLOPT_HTTPHEADER => array("User-Agent: reposs [shields.io service]")
 		)
 	);
 	
@@ -25,7 +25,7 @@
 	function formatBytes($size, $precision = 2) {
 	    $base = log($size) / log(1024);
 	    $suffixes = array(' kb', ' mb', ' gb', ' tb');   
-
+		
 	    return round(pow(1024, $base - floor($base)), $precision) . $suffixes[floor($base)];
 	}
 	
