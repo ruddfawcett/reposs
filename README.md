@@ -11,7 +11,7 @@ In your README.md, just add an image with the base URL (`https://shields-sizer.h
 
 You will then get a nice and pretty SVG with the size of the repository:
 
-![](https://shields-sizer.herokuapp.com/?path=CocoaPods/Specs)
+![](http://shields-sizer.herokuapp.com/?path=CocoaPods/Specs)
 
 That's it!
 
