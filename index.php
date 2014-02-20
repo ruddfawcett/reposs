@@ -21,6 +21,13 @@
 	}
 	else $color = "blue";
 	
-	echo file_get_contents("http://img.shields.io/badge/repo_size-".$result['size']."_kb-".$color.".svg");
+	// Taken from here: http://stackoverflow.com/a/2510540
+	function formatBytes($size, $precision = 2) {
+	    $base = log($size) / log(1024);
+	    $suffixes = array(' kb', ' mb', ' gb', ' tb');   
 
+	    return round(pow(1024, $base - floor($base)), $precision) . $suffixes[floor($base)];
+	}
+	
+	echo file_get_contents("http://img.shields.io/badge/repo_size-".str_replace(" ","_",formatBytes($result["size"], 1))."-".$color.".svg");
 ?>
