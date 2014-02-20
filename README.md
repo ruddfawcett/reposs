@@ -1,6 +1,6 @@
 shields-sizer
 =============
-Clean and simple repository size badge, [courtesy of shields.io](https://github.com/badges/shields).
+Clean and simple repository size badge, [courtesy of shields.io](https://github.com/badges/shields), that displays the size of your repository in KB, MB or TB.
 
 ##Use
 In your README.md, just add an image with the base URL (`https://shields-sizer.herokuapp.com/`) with the path to your **public** repository, for example [CocoaPods/Specs](https://github.com/CocoaPods/Specs):
@@ -34,7 +34,7 @@ Available colors are (repo is rexfinn/shields-sizer):
 | ff69b4        | ![](https://shields-sizer.herokuapp.com/?path=rexfinn/shields-sizer&color=ff69b4)      |
 
 ##To Do
-- Add MB/GB options
+- ~~Add MB/GB options~~ &#x2713;
 
 
 ------
