@@ -22,7 +22,7 @@
 	else $color = 'blue';	
 	
 	if (array_key_exists('style', $_GET) && array_key_exists('style', $_GET) == 'flat') {
-		$style = '&style=flat';
+		$style = '?style=flat';
 	}
 	else $style = '';
 	
