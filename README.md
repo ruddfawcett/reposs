@@ -19,7 +19,7 @@ If you want a flat image, you can add `&style=flat` after the path.
 ![](https://reposs.herokuapp.com/?path=CocoaPods/Specs&style=flat)
 ```
 
-![](https://reposs.herokuapp.com/?path=CocoaPods/Specs&style=flat)
+![](http://reposs.herokuapp.com/?path=CocoaPods/Specs&style=flat)
 
 That's it!
 
