@@ -27,24 +27,20 @@ That's it!
 
 If you want to change the color of your badge, just append `&color=COLOR_NAME` to the image URL.  By default, the badge is blue.
 
-Available colors are (repo is rexfinn/shields-sizer):
+Available colors are (repo is ruddfawcett/reposs):
 
 | Color         | Badge                                                                           |
 |:-------------:|:-------------------------------------------------------------------------------:|
-| brightgreen   | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=brightgreen&style=flat) |
-| green         | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=green&style=flat)       |
-| yellowgreen   | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=yellowgreen&style=flat) |
-| yellow        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=yellow&style=flat)      |
-| orange        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=orange&style=flat)      |
-| red           | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=red&style=flat)         |
-| lightgray     | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=lightgray&style=flat)   |
-| blue          | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=blue&style=flat)        |
-| ff69b4        | ![](https://reposs.herokuapp.com/?path=rexfinn/reposs&color=ff69b4&style=flat)      |
-
-##To Do
-- ~~Add MB/GB options~~ &#x2713;
-
+| brightgreen   | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=brightgreen&style=flat) |
+| green         | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=green&style=flat)       |
+| yellowgreen   | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=yellowgreen&style=flat) |
+| yellow        | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=yellow&style=flat)      |
+| orange        | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=orange&style=flat)      |
+| red           | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=red&style=flat)         |
+| lightgray     | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=lightgray&style=flat)   |
+| blue          | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=blue&style=flat)        |
+| ff69b4        | ![](https://reposs.herokuapp.com/?path=ruddfawcett/reposs&color=ff69b4&style=flat)      |
 
 ------
 
-**This repository was created by Rex Finn - but is completely built off of [shields.io](https://github.com/badges/shields) - go check them out!  Having a problem?  [Open an issue.](https://github.com/rexfinn/reposs/issues)**
+**This repository was created by Rudd Fawcett - but is completely built off of [shields.io](https://github.com/badges/shields) - go check them out!  Having a problem?  [Open an issue.](https://github.com/ruddfawcett/reposs/issues)**
