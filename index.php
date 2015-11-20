@@ -38,5 +38,5 @@
 	    return round(pow(1024, $base - floor($base)), $precision) . $suffixes[floor($base)];
 	}
 
-	echo file_get_contents('http://img.shields.io/badge/repo_size-'.str_replace(' ','_',formatBytes($result['size'], 1)).'-'.$color.'.svg'.$style);
+	echo file_get_contents('https://img.shields.io/badge/repo_size-'.str_replace(' ','_',formatBytes($result['size'], 1)).'-'.$color.'.svg'.$style);
 ?>
