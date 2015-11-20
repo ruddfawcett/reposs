@@ -1,6 +1,6 @@
 reposs - repo size shields
 =============
-Clean and simple repository size badge, [courtesy of shields.io](https://github.com/badges/shields), that displays the size of your repository in KB, MB or TB.
+Clean and simple repository size badge, [courtesy of shields.io](https://github.com/badges/shields), that displays the size of your repository in KB, MB or \*gasp\* GB.
 
 ##Use
 In your README.md, just add an image with the base URL (`https://reposs.herokuapp.com/`) with the path to your **public** repository, for example [CocoaPods/Specs](https://github.com/CocoaPods/Specs):
@@ -27,7 +27,7 @@ That's it!
 
 If you want to change the color of your badge, just append `&color=COLOR_NAME` to the image URL.  By default, the badge is blue.
 
-Available colors are (repo is ruddfawcett/reposs):
+Available colors are (repo is `ruddfawcett/reposs`):
 
 | Color         | Badge                                                                           |
 |:-------------:|:-------------------------------------------------------------------------------:|
