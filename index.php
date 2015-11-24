@@ -4,8 +4,8 @@
 	header("Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=-1");
 	header("Pragma: no-cache");
 	header('Content-Type: image/svg+xml; Content-Encoding: gzip; charset=utf-8');
-	
-	$fp = fopen(dirname(__FILE__).'/access.log', 'w');
+
+	$fp = fopen(dirname(__FILE__).'/log/access.log', 'a+');
 	$curl = curl_init();
 
 	curl_setopt_array($curl,
@@ -16,7 +16,7 @@
 			CURLOPT_VERBOSE => true,
 			CURLOPT_TIMEOUT => '3',
 			CURLOPT_STDERR => $fp,
-			CURLOPT_HTTPHEADER => array('User-Agent: reposs [shields.io service]', 'Authorization: token '.getenv['GITHUB_API_KEY'])
+			CURLOPT_HTTPHEADER => array('User-Agent: reposs [shields.io service]', 'Authorization: token '.getenv('GITHUB_API_KEY'))
 		)
 	);
 	$result = json_decode(curl_exec($curl),true);
