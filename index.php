@@ -5,7 +5,7 @@
 	header("Pragma: no-cache");
 	header('Content-Type: image/svg+xml; Content-Encoding: gzip; charset=utf-8');
 
-	$fp = fopen(dirname(__FILE__).'/access.log', 'a+');
+	$fp = fopen(dirname(__FILE__).'/log/access.log', 'a+');
 	$curl = curl_init();
 
 	curl_setopt_array($curl,
