@@ -1,0 +1,13 @@
+{
+  "name": "reposs",
+  "scripts": {
+  },
+  "env": {
+    "GITHUB_API_KEY": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ]
+}
