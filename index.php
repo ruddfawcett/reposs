@@ -28,8 +28,8 @@
 	}
 	else $color = 'blue';
 
-	if (array_key_exists('style', $_GET) && array_key_exists('style', $_GET) == 'flat') {
-		$style = '?style=flat';
+	if (array_key_exists('style', $_GET)) {
+		$style = '?style='.$_GET['style'];
 	}
 	else $style = '';
 
